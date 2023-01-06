@@ -41,6 +41,11 @@ const Search = () => {
           english: `${currentInput} suggestion 2`,
           translation: "شيء",
         },
+        {
+          id: 3,
+          english: `Feteer`,
+          translation: "فطير",
+        }
       ];
       setSuggestions(mySuggestions);
     }

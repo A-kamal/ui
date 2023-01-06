@@ -28,20 +28,7 @@ const Home = () => {
 {/* <header><Navigation/></header> */}
       
 
-      <main className="py-4 flex flex-col items-center h-screen">
-        <SearchBar/>
-        {posts.length > 0 ? (
-          <ul className="w-1/2 flex flex-col">
-            {posts.map(post => (
-              <li key={post.id} className="mb-2 py-2 px-3 rounded-md bg-gray-200">
-              {post.title}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="text-gray-600">No results found</p>
-      )}
-    </main>
+
   </div>
 );
 };
